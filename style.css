@@ -1,0 +1,52 @@
+.body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  background-color: #3030C1;
+}
+
+.header {
+  padding: 60px 130px;
+}
+
+.logo {
+  width: 180px;
+  height: 47px;
+  background: no-repeat url('img/Logo.png');
+}
+
+.content {
+  /* padding-left: 130px;  */
+  padding: 50px 130px 0 130px;
+  background: 90% 10% no-repeat url('img/woman.png');
+  background-size: 565px 465px;
+}
+
+.content__title {
+  padding-bottom: 32px;
+  color: #fff;
+  font: 800 45px/55px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.content__subtitle {
+  padding-bottom: 10px;
+  color: #FFCC33;
+  font: 800 30px/37px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.content__text {
+  padding-bottom: 47px;
+  color: #fff;
+  font: 300 20px/23px 'gilroy-light', arial, helvetica, sans-serif;
+
+}
+
+.content__button {
+  font: 800 20px/24px 'montserrat-bold', arial, helvetica, sans-serif;
+  display: inline-block;
+  padding: 20px 30px;
+  color: #3030C1;
+  background: #FFCC33;
+}
