@@ -19,8 +19,9 @@
 }
 
 .content {
+  height: 500px;
   padding: 85px 130px 0 120px;
-  background: 85% -90% no-repeat url('img/woman.png');
+  background: 85% 25% no-repeat url('img/woman.png');
   background-size: 564px 464px;
 }
 
@@ -65,13 +66,16 @@
   font: 800 40px/50px 'gilroy-extrabold', arial, helvetica, sans-serif;
 }
 
+.container {
+  display: flex;
+}
+
 .first-block {
-  border: red dashed;
-  display: inline-block;
-  margin-left: 120px;
+  display: block;
+  margin: 30px 0 0 120px;
   width: 380px;
   height: 400px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 30px #C0C0C0;
   background: #FBFBFB;
 }
 
@@ -98,11 +102,11 @@
 }
 
 .second-block {
-  display: inline-block;
-  border: red dashed;
+  display: block;
   margin: 30px 0 0 20px;
   width: 380px;
   height: 400px;
+  box-shadow: 0 0 30px #C0C0C0;
   background: #FBFBFB;
 }
 
@@ -113,7 +117,7 @@
 
 .second-block__title {
   margin: 0;
-  padding: 0 62px 25px 63px ;
+  padding: 0 34px 12px 33px ;
   text-align: center;
   color: #3030C1;
   font: 800 30px/37px 'gilroy-extrabold', arial, helvetica, sans-serif;
@@ -128,11 +132,11 @@
 }
 
 .third-block {
-  display: inline-block;
-  border: red dashed;
-  margin-left: 20px;
+  display: block;
+  margin: 30px 0 0 20px;
   width: 380px;
   height: 400px;
+  box-shadow: 0 0 30px #C0C0C0;
   background: #FBFBFB;
 }
 
@@ -159,12 +163,13 @@
 
 .main__caption {
   margin: 0;
-  padding: 55px 510px 30px 510px;
+  padding: 52px 510px 30px 510px;
   font: 800 40px/49px 'gilroy-extrabold', arial, helvetica, sans-serif;
 }
 
 p.main__desc {
-  padding: 55px 220px 30px 200px;
+  margin: 0;
+  padding: 0 190px 55px 220px;
   font: 300 30px/35px 'gilroy-light', arial, helvetica, sans-serif;
   text-align: center;
 }
@@ -176,16 +181,16 @@ p.main__desc {
 
 .apply__title {
   margin: 0;
-  padding: 73px 200px 50px 330px;
+  padding: 70px 290px 50px 290px;
   font: 800 40px/50px 'gilroy-extrabold', arial, helvetica, sans-serif;
 }
 
 .name {
   border: none;
   display: block;
-  margin: 0 530px 30px 530px;
+  margin: 0 540px 30px 520px;
   padding-left: 28px;
-  width: 380px;
+  width: 360px;
   height: 80px;
   font: 300 20px/23px 'gilroy-light', arial, helvetica, sans-serif;
   color: #878787;
@@ -196,9 +201,9 @@ p.main__desc {
 .mail {
   display: block;
   border: none;
-  margin: 0 530px 75px 530px;
+  margin: 0 540px 100px 520px;
   padding-left: 28px;
-  width: 380px;
+  width: 360px;
   height: 80px;
   font: 300 20px/23px 'gilroy-light', arial, helvetica, sans-serif;
   color: #878787;
@@ -207,8 +212,8 @@ p.main__desc {
 
 .apply__button {
   font: 800 20px/24px 'montserrat-bold', arial, helvetica, sans-serif;
-  padding: 30px 80px;
-  margin: 0 530px 73px 530px ;
+  padding: 30px 110px;
+  margin: 0 500px 0 520px ;
   text-decoration: none;
   color: black;
   background: #FFCC33;
@@ -220,7 +225,8 @@ p.main__desc {
 }
 
 .footer__text {
-  padding: 51px 0 51px 130px ;
+  margin: 0;
+  padding: 51px 0 51px 125px;
   font: 400 15px/18px 'roboto-regular', arial, helvetica, sans-serif;
   color: #fff;
 }
