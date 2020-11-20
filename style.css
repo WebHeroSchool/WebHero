@@ -4,11 +4,12 @@
 
 .wrapper {
   margin: auto;
+  height: 840px;
   background-color: #3030C1;
 }
 
 .header {
-  padding: 60px 130px;
+  padding: 50px 120px;
 }
 
 .logo {
@@ -18,26 +19,29 @@
 }
 
 .content {
-  /* padding-left: 130px;  */
-  padding: 50px 130px 0 130px;
-  background: 90% 10% no-repeat url('img/woman.png');
-  background-size: 565px 465px;
+  height: 500px;
+  padding: 85px 130px 0 120px;
+  background: 85% 25% no-repeat url('img/woman.png');
+  background-size: 564px 464px;
 }
 
 .content__title {
-  padding-bottom: 32px;
+  margin: 0;
+  padding-bottom: 35px;
   color: #fff;
   font: 800 45px/55px 'gilroy-extrabold', arial, helvetica, sans-serif;
 }
 
 .content__subtitle {
-  padding-bottom: 10px;
+  margin: 0;
+  padding-bottom: 8px;
   color: #FFCC33;
   font: 800 30px/37px 'gilroy-extrabold', arial, helvetica, sans-serif;
 }
 
 .content__text {
-  padding-bottom: 47px;
+  margin: 0;
+  padding-bottom: 45px;
   color: #fff;
   font: 300 20px/23px 'gilroy-light', arial, helvetica, sans-serif;
 
@@ -45,8 +49,184 @@
 
 .content__button {
   font: 800 20px/24px 'montserrat-bold', arial, helvetica, sans-serif;
-  display: inline-block;
-  padding: 20px 30px;
+  padding: 15px 25px;
+  text-decoration: none;
   color: #3030C1;
   background: #FFCC33;
+}
+
+.main {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.main__title {
+  display: block;
+  margin: 50px 520px 0 520px;
+  font: 800 40px/50px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.first-block {
+  display: block;
+  margin: 30px 0 0 120px;
+  width: 380px;
+  height: 400px;
+  box-shadow: 0 0 30px #C0C0C0;
+  background: #FBFBFB;
+}
+
+.medal {
+  padding: 47px 132px 20px 133px;
+  background-size: 115px 115px;
+}
+
+.first-block__title {
+  margin: 0;
+  padding: 0 62px 25px 63px ;
+  overflow: auto;
+  text-align: center;
+  color: #3030C1;
+  font: 800 30px/37px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.first-block__subtitle {
+  margin: 0;
+  padding: 0 74px 65px 75px;
+  text-align: center;
+  color: #3A3A3A;
+  font: 800 20px/25px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.second-block {
+  display: block;
+  margin: 30px 0 0 20px;
+  width: 380px;
+  height: 400px;
+  box-shadow: 0 0 30px #C0C0C0;
+  background: #FBFBFB;
+}
+
+.case {
+  padding: 47px 132px 20px 133px;
+  background-size: 115px 115px;
+}
+
+.second-block__title {
+  margin: 0;
+  padding: 0 34px 12px 33px ;
+  text-align: center;
+  color: #3030C1;
+  font: 800 30px/37px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.second-block__subtitle {
+  margin: 0;
+  padding: 0 74px 65px 75px;
+  text-align: center;
+  color: #3A3A3A;
+  font: 800 20px/25px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.third-block {
+  display: block;
+  margin: 30px 0 0 20px;
+  width: 380px;
+  height: 400px;
+  box-shadow: 0 0 30px #C0C0C0;
+  background: #FBFBFB;
+}
+
+.money {
+  padding: 47px 132px 20px 133px;
+  background-size: 115px 115px;
+}
+
+.third-block__title {
+  margin: 0;
+  padding: 0 62px 25px 63px ;
+  text-align: center;
+  color: #3030C1;
+  font: 800 30px/37px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.third-block__subtitle {
+  margin: 0;
+  /* padding: 0 74px 65px 75px; */
+  text-align: center;
+  color: #3A3A3A;
+  font: 800 20px/25px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.main__caption {
+  margin: 0;
+  padding: 52px 510px 30px 510px;
+  font: 800 40px/49px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+p.main__desc {
+  margin: 0;
+  padding: 0 190px 55px 220px;
+  font: 300 30px/35px 'gilroy-light', arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+.apply {
+  background-color: #F0FBFF;
+  height: 590px;
+}
+
+.apply__title {
+  margin: 0;
+  padding: 70px 290px 50px 290px;
+  font: 800 40px/50px 'gilroy-extrabold', arial, helvetica, sans-serif;
+}
+
+.name {
+  border: none;
+  display: block;
+  margin: 0 540px 30px 520px;
+  padding-left: 28px;
+  width: 360px;
+  height: 80px;
+  font: 300 20px/23px 'gilroy-light', arial, helvetica, sans-serif;
+  color: #878787;
+  background-color: #fff;
+
+}
+
+.mail {
+  display: block;
+  border: none;
+  margin: 0 540px 100px 520px;
+  padding-left: 28px;
+  width: 360px;
+  height: 80px;
+  font: 300 20px/23px 'gilroy-light', arial, helvetica, sans-serif;
+  color: #878787;
+  background-color: #fff;
+}
+
+.apply__button {
+  font: 800 20px/24px 'montserrat-bold', arial, helvetica, sans-serif;
+  padding: 30px 110px;
+  margin: 0 500px 0 520px ;
+  text-decoration: none;
+  color: black;
+  background: #FFCC33;
+}
+
+.footer {
+  background-color: #00008B;
+  height: 120px;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 51px 0 51px 125px;
+  font: 400 15px/18px 'roboto-regular', arial, helvetica, sans-serif;
+  color: #fff;
 }
